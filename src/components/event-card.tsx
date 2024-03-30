@@ -16,9 +16,9 @@ export default function EventCard({ event }: EventCardProps) {
         <Image
           src={event.imageUrl}
           alt={event.name}
-          height={280}
           width={500}
-          className="h-[60%] object-fill"
+          height={280}
+          className="h-[60%] object-cover"
         />
         <div className="flex-1 flex flex-col justify-center items-center">
           <h2 className="text-2xl font-semibold">{event.name}</h2>
